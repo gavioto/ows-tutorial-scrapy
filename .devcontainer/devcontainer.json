@@ -4,7 +4,7 @@
 	"name": "Python 3",
 	"context": "..",
 	"dockerFile": "Dockerfile",
-	"workspaceMount": "src=//c/Users/esalcor/git/github-own/taller-scrapy,dst=/workspaces/taller-scrapy,type=bind,consistency=delegated",
+	"workspaceMount": "src=//c/Users/${USERPROFILE}/git/github-own/taller-scrapy,dst=/workspaces/taller-scrapy,type=bind,consistency=delegated",
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
 	"settings": { 
